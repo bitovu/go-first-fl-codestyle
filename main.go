@@ -58,7 +58,7 @@ func startTraining(charName, charClass string) string {
 	if charClass == "healer" {
 		fmt.Printf("%s, ты Лекарь - чародей, способный исцелять раны.\n", charName)
 	}
-
+	//
 	fmt.Println("Потренируйся управлять своими навыками.")
 	fmt.Println("Введи одну из команд: attack — чтобы атаковать противника,")
 	fmt.Println("defence — чтобы блокировать атаку противника,")
